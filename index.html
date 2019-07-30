@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bikes</title>
+	<meta name="keywords" content="html,css,javaScript">
+	<meta name="description" content="Bikes">
+	<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome 5 cdn -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- start here -->
+	<nav class="navbar navbar-default">
+		<div class="container prv">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="logo" src="img/logo.png">
+				</a>
+			</div>
+			<ul class="nav navbar-nav navbar-center">
+				<li><a class="bold" href="#">HOME</a></li>
+				<li><a class="bold" href="#">BIKES</a></li>
+				<li><a class="bold" href="#">GEAR</a></li>
+				<li><a class="bold" href="#">PARTS</a></li>
+				<li><a class="bold" href="#">TIRES</a></li>
+				<li><a class="bold" href="#">SERVICE-INFO</a></li>
+				<li><a class="bold" href="#">CATALOGUES</a></li>
+				<li><a class="bold" href="#">CONTACT</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><i class="fas fa-search fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-shopping-bag fa-2x"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row prv">
+			<p class="bold-title">Bikes</p>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-2">
+				<div>
+					<h2><b>Filter by:</b></h2>
+					<ul>
+						<li class="menu-field"><a class="side-menu all" href="#">Show all</a><span class="badge"></span>
+						</li>
+					</ul>
+				</div>
+				<hr>
+				<div>
+					<h3><b>Gender</b></h3>
+					<ul>
+						<li class="menu-field"><a class="side-menu pol" href="#">Male</a><span class="badge"></span></li>
+						<li class="menu-field"><a class="side-menu pol" href="#">Female</a><span class="badge"></span>
+						</li>
+					</ul>
+				</div>
+				<hr>
+				<div>
+					<h3><b>Brand</b></h3>
+					<ul>
+						<li class="menu-field"><a class="side-menu brand" href="#">LE GRAND BIKES</a><span
+								class="badge"></span></li>
+						<li class="menu-field"><a class="side-menu brand" href="#">KROSS</a><span class="badge"></span></li>
+						<li class="menu-field"><a class="side-menu brand" href="#">EXPLORER</a><span class="badge"></span>
+						</li>
+						<li class="menu-field"><a class="side-menu brand" href="#">VISITOR</a><span class="badge"></span>
+						</li>
+						<li class="menu-field"><a class="side-menu brand" href="#">PONY</a><span class="badge"></span></li>
+						<li class="menu-field"><a class="side-menu brand" href="#">FORCE</a><span class="badge"></span></li>
+						<li class="menu-field"><a class="side-menu brand" href="#">E-BIKES</a><span class="badge"></span>
+						</li>
+						<li class="menu-field"><a class="side-menu brand" href="#">IDEAL</a><span class="badge"></span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div id="card" class="row"></div>
+			</div>
+		</div>
+
+    <div class="row flex">
+		<div class="col-md-4 margin">
+			<h3 class="bottom"><b>Social Share</b></h3>
+			<ul class="ul">
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-4 margin bordeR">
+			<h3 class="bottom"><b>Event Info</b></h3>
+			<p>Enter Now</p>
+			<p>Event Info</p>
+			<p>Course Maps</p>
+			<p>Race Pack</p>
+			<p>Results</p>
+			<p>FAQs</p>
+			<p>Am I Registered?</p>
+		</div>
+
+		<div class="col-md-4 margin bordeR">
+			<h3 class="bottom"><b>Registration</b></h3>
+			<p>Enter Now</p>
+			<p>Event Info</p>
+			<p>Course Maps</p>
+			<p>Race Pack</p>
+			<p>Results</p>
+			<p>FAQs</p>
+			<p>Am I Registered?</p>
+		</div>
+
+		<div class="col-md-4 margin bordeR">
+			<h3 class="bottom"><b>Schedule</b></h3>
+			<p>Enter Now</p>
+			<p>Event Info</p>
+			<p>Course Maps</p>
+			<p>Race Pack</p>
+			<p>Results</p>
+			<p>FAQs</p>
+			<p>Am I Registered?</p>
+		</div>
+	</div>
+
+
+	</div>
+
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/products.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

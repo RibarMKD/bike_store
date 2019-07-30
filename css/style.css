@@ -1,0 +1,140 @@
+body {
+	background-color: #e7e7e7;
+}
+
+.navbar-nav.navbar-center {
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+}
+.container{
+	background-color: white;
+}
+.navbar-default{
+	background-color: transparent;
+}
+.navbar-default{
+	margin-bottom:0;
+}
+.prv{
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+/* nav {
+	padding: 15px;
+} */
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+hr {
+	border-color: rgb(185, 185, 185) !important;
+	margin-top:0;
+}
+
+.navbar-brand img {
+	width: 70px;
+}
+
+ul {
+	padding-inline-start: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+/* .count {
+	padding-left: 150px;
+} */
+
+.bold-title {
+	font-size: 7rem;
+	margin-left: 12px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: orange !important;
+}
+
+li:hover {
+color: orange !important;
+}
+
+li:hover a {
+color: orange !important;
+}
+
+.side-menu:hover {
+color: inherit !important;
+}
+
+.menu-field {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.bg{
+	background-color: orange;
+	padding:5px;
+}
+.border{
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+li:hover span{
+	background-color: orange;
+}
+
+/* footer */
+.flex{
+	margin-top:20px;
+	display: flex;
+	background-color: rgb(247, 238, 238);
+	padding-bottom: 30px;
+}
+.ul{
+	display: flex;
+}
+.ul li{
+width:40px;
+background-color: orange;
+margin:10px;
+}
+.ul li i{
+	padding:15px;
+	color:white;
+}
+.bordeR{
+	border-left:1px solid gray;
+
+}
+.margin{
+	margin-top: 50px;
+}
+.bottom{
+	margin-bottom:20px;
+}
+
+/*use color:orange for the orange color*/
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+/*use color:grey for the social-share icons on hover*/
